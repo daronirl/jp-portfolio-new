@@ -9,13 +9,14 @@
 }
 
 .hero {
-    background-color: #ffffff;
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: linear-gradient(to right,#fff 0%,#fff 50%, hsl(220, 100%, 64%) 50%,  #4685ff 100% );
 }
 
 .hero h1, p {
@@ -28,19 +29,19 @@
 }
 
 .hero p {
-    margin-top: 1em;
+    margin-top: 0.5em;
     font-size: 3em;
 }
 
 .port {
-    color: #2558e4;
+    color: #fff;
    
 }
 
 .myButton {
-	box-shadow:inset 0px -3px 7px 0px #2558e4;
-	background:linear-gradient(to bottom, #2558e4 5%, #2558e4 100%);
-	background-color:#2558e4;
+	box-shadow:inset 0px -3px 7px 0px #000;
+	background:linear-gradient(to bottom, #000 5%, #000 100%);
+	background-color:#000;
 	border-radius:3px;
 	border:1px solid #0b0e07;
 	display:inline-block;
@@ -50,12 +51,12 @@
 	font-size:15px;
 	padding:9px 23px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2558e4;
-    margin-top: 2.4em;
+	text-shadow:0px 1px 0px #000;
+    margin-top: 2em;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #2558e4 5%, #2558e4 100%);
-	background-color:#2558e4;
+	background:linear-gradient(to bottom, #000 5%, #000 100%);
+	background-color:#000;
 }
 .myButton:active {
 	position:relative;
@@ -118,18 +119,16 @@ header {
         padding: 0 50px;
     }
 
-    
-  
 }
 
 @media (max-width: 900px) {
  
     .hero h1 {
-     font-size: 3.5em;
+     font-size: 3.3em;
    }
 
    .hero p {
-    font-size: 2.1em;
+    font-size: 1.7em;
    }
 
   .hamburger {
@@ -181,6 +180,9 @@ header {
     opacity: 1;
 }
 
+.port {
+    color: #000;
+}
 
 
 
