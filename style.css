@@ -458,7 +458,7 @@ header {
         padding: var(--sectionPadding);
         background-color: #f7f7f7;
         position: relative;
-        z-index: 1;
+        z-index: -1;
     }
     #contact-1388 .cs-container {
         width: 100%;
