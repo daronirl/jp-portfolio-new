@@ -38,6 +38,14 @@
     color: #fff;
 }
 
+.project-1 {
+    background-color: #f7f8f8;
+}
+
+.project-3 {
+    background-color: #4685ff;
+}
+
 
 
 .myButton {
@@ -203,6 +211,20 @@ header {
 .card img {
     width: 80vw;
    
+}
+
+.project-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+    align-items: center;
+}
+
+
+.project-1 img {
+    width: 90%;
+    
 }
 
 
