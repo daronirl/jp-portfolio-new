@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
+
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -22,7 +25,9 @@ html {
     text-align: center;
     background: linear-gradient(to right,#fff 0%,#fff 48%, hsl(220, 100%, 64%) 50%,  #4685ff 100% );
     margin-bottom: 5em;
+ 
 }
+
 
 .hero h1, p {
     color: #000;
